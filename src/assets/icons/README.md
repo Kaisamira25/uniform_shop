@@ -1,0 +1,1 @@
+Đây là folder để icon bao gồm icon dạng svg

@@ -1,0 +1,2 @@
+Đây là folder để chứa các trang web cuối cùng trước khi đưa vào App để hiển thị ví dụ 1 trang login hoàn chỉnh sẽ được 1 component trong folder này chứa mà chỉ cần
+1 component này nó có thể render ra 1 page login lúc đó hãy đưa component này vào app để hiển thị

@@ -1,0 +1,1 @@
+Đây là folder để chứa các style css cho các component khuyết cáo nên dùng css.module không nên dùng css thường vì sẽ xảy ra biến cố cuộc đời
