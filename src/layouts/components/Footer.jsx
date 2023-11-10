@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F2F5FF] h-fit">
+    <footer className="bg-[#F2F5FF] h-fit w-full">
       <div className="px-3 sm:container sm:mx-auto py-3 space-y-5 sm:space-y-0">
         <div className="grid grid-cols-1 sm:hidden">
           <div className="flex justify-center space-x-4">
