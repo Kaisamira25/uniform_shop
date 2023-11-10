@@ -1,17 +1,14 @@
 import React from 'react'
 import Navbar from '../../layouts/components/Navbar'
-import CarouselBar from '../../components/carouselBar'
-import Home from '../../components/home'
 import Footer from '../../layouts/components/Footer'
-import Product from './product/Product'
+import CarouselBar from '../../components/_CarouselBar'
+import Home from './home/home'
 
 export default function View() {
   return (
     <div>
-        <Product/>
         <Navbar/>
-        <CarouselBar/>
-        <Home />
+        // Cho page vào và xem tại đây
         <Footer/>
     </div>
   )

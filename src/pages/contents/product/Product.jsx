@@ -6,9 +6,7 @@ import ContentProduct from './ContentProduct'
 export default function Product() {
   return (
     <div>
-        <Navbar/>
         <ContentProduct/>
-        <Footer/>
     </div>
   )
 }
