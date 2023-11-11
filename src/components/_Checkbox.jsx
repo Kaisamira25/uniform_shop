@@ -1,29 +1,31 @@
-import React from 'react';
+
+
+import React, { Component } from 'react';
 
 class Checkboxlogin extends Component {
   constructor() {
     super();
     this.state = {
-      ghinho: false, 
+      isChecked: false, 
     };
   }
 
   handleCheckboxChange = () => {
-    this.setState({ ghinho: !this.state.ghinho }); 
+    this.setState({ isChecked: !this.state.isChecked });
   }
 
   render() {
     return (
-      <div>
-        <label  className="block text-sm font-medium text-gray-700">
-         
+      <div className="block text-sm font-medium text-gray-700" >
+        <label>
+    
           <input
             type="checkbox"
-            id="Checkboxlogin"
-            checked={this.state.ghinho}
+            id="myCheckbox"
+            checked={this.state.isChecked} 
             onChange={this.handleCheckboxChange} 
           />
-          ghi nhớ đăng nhập
+           Ghi nhớ đăng nhập
         </label>
       </div>
     );
