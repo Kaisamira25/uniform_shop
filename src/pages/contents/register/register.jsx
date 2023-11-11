@@ -20,6 +20,7 @@ class Register extends Component {
                             <li>
                                 <Buttonreg />
                             </li>
+                            
                         </ul>
 
                     </div >
