@@ -1,15 +1,17 @@
 import React from 'react'
 import Navbar from '../../layouts/components/Navbar'
-import Login from './login/login'
-import Register from './register/register'
 
+import Footer from '../../layouts/components/Footer'
+import CarouselBar from '../../components/_CarouselBar'
+import Home from './home/home'
 
 export default function View() {
   return (
     <div>
-       <Navbar/>
-       <Login/>
-       <Register/>
+
+        <Navbar/>
+        // Cho page vào và xem tại đây
+        <Footer/>
     </div>
   )
 }
