@@ -10,7 +10,7 @@ export default function View() {
     <div>
 
         <Navbar/>
-        // Cho page vào và xem tại đây
+          
         <Footer/>
     </div>
   )
