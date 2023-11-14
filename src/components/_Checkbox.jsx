@@ -25,7 +25,7 @@ class Checkboxlogin extends Component {
             checked={this.state.isChecked} 
             onChange={this.handleCheckboxChange} 
           />
-           Ghi nhớ đăng nhập
+            <span className="ml-2">Ghi nhớ đăng nhập</span>
         </label>
       </div>
     );

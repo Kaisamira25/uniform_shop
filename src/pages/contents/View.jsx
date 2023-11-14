@@ -1,8 +1,10 @@
+
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "../../layouts/components/Navbar";
 import Footer from "../../layouts/components/Footer";
 import routes from "../../router/router";
+
 
 export default function View() {
   return (

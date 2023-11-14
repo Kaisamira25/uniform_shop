@@ -1,35 +1,35 @@
-import React, { Component } from 'react';
+import React from 'react';
 import REGForm from '../../../components/_Regform';
 import Buttonreg from '../../../components/_ButtonReg';
 
 
-class Register extends Component {
-
-    render() {
-        return (
-            <div className="flex h-screen items-center justify-center">
-                <div className="bg-white w-96 p-8 rounded-lg shadow-lg">
-                    <h2 className="text-2xl font-bold mb-4 text-center">Register</h2>
+export default function Register() {
 
 
-                    <div className="mb-4">
-                        <ul>
-                            <li>
-                                <REGForm />
-                            </li>
-                            <li>
-                                <Buttonreg />
-                            </li>
-                            
-                        </ul>
-
-                    </div >
+    return (
+        <div className="flex h-screen items-center justify-center">
+                 <div className="bg-white w-full sm:w-96 md:w-2/4 lg:w-1/3 xl:w-1/4 p-8 rounded-lg shadow-lg">
+                <h2 className="text-2xl font-bold mb-4 text-center">Đăng kí </h2>
 
 
-                </div>
+                <div className="mb-4">
+                    <ul>
+                        <li>
+                            <REGForm />
+                        </li>
+                        <li>
+                            <Buttonreg />
+                        </li>
+
+                    </ul>
+
+                </div >
+
+
             </div>
-        );
-    }
+        </div>
+    );
 }
 
-export default Register;
+
+
