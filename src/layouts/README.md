@@ -1,1 +1,1 @@
-Đây là folder chứa các layout lớn ví dụ navar,footer ta cần tái sử dụng
+Đây là folder chứa các layout lớn ví dụ navar,footer ta cần tái sử dụng a
