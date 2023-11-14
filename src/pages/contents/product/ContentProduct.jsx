@@ -1,5 +1,5 @@
 import React from "react";
-import Category from "../../../components/Category";
+import Category from "../../../components/_Category";
 import CardProduct from "../../../components/_CardProduct";
 
 export default function ContentProduct() {
