@@ -6,19 +6,17 @@ import Forgotpassword from '../../../components/_Forgot';
 import GoogleLogin from '../../../components/_LoginGG';
 import FacebookLogin from '../../../components/_LoginFB';
 
-
-export default function Login () {
-
+export default function Login() {
   return (
     <div className="flex h-screen items-center justify-center">
-      <div className="bg-white w-96 p-8 rounded-lg shadow-lg">
+      <div className="bg-white w-full sm:w-96 md:w-2/4 lg:w-1/3 xl:w-1/4 p-8 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold mb-4 text-center">Đăng Nhập</h2>
         <div>
           <ul>
             <li>
               <Username />
             </li>
-            <li className='mb-2'>
+            <li className="mb-2">
               <Checkboxlogin />
             </li>
             <li>
@@ -41,11 +39,8 @@ export default function Login () {
           <div className="mt-2">
             <FacebookLogin />
           </div>
-
         </div>
       </div>
     </div>
   );
 }
-
-

@@ -4,13 +4,14 @@ import Navbar from '../../layouts/components/Navbar'
 import Footer from '../../layouts/components/Footer'
 import CarouselBar from '../../components/_CarouselBar'
 import Home from './home/home'
+import Login from './login/login'
 
 export default function View() {
   return (
     <div>
 
         <Navbar/>
-        // Cho page vào và xem tại đây
+      <Login/>
         <Footer/>
     </div>
   )
