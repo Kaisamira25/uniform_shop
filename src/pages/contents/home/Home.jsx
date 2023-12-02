@@ -11,6 +11,7 @@ export default function Home() {
 
   const getProduct = async () => {
     let res = await fetchAllProduct();
+
     if (res.data) {
       setListProduct(res.data);
     }
@@ -54,6 +55,7 @@ export default function Home() {
                   />
                   <div className="absolute bottom-0 left-0 w-full flex items-center justify-center flex-col bg-black bg-opacity-50 ">
                     <h2 className="text-lg font-semibold text-white p-2 rounded-t-md">
+
                       {product.title}
                     </h2>
                     <button className="text-white px-4 py-2  bg-red-500 mb-3">
@@ -84,7 +86,9 @@ export default function Home() {
                   />
                   <div className="absolute bottom-0 left-0 w-full flex items-center justify-center flex-col bg-black bg-opacity-50">
                     <h2 className="text-lg font-semibold text-white p-2 rounded-t-md">
+
                       {product.title}
+
                     </h2>
                     <button className="text-white px-4 py-2  bg-red-500 mb-3">
                       Xem tất cả
