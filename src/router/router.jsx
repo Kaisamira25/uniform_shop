@@ -14,7 +14,7 @@ const routes = [
   { path: "/home", element: <Home /> },
   { path: "/login", element: <Login /> },
   { path: "/register", element: <Register /> },
-  { path: "/product", element: <Product /> },
+  { path: "/product/:id", element: <Product /> },
   { path: "/admin", element: <ProductAdmin /> },
   { path: "/admin/product", element: <ProductAdmin /> },
   { path: "/admin/order", element: <OrderAdmin /> },
