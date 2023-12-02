@@ -12,12 +12,16 @@ export default function Home() {
     let res = await fetchAllProduct();
     if (res.data){
       setListProduct(res.data)
+    
+
     }
+
   }
+  console.log(listProduct)
 
-  const categoryProducts = listProduct.filter((product) => product.id >= 1 && product.id <= 6);
+  const categoryProducts = listProduct.filter((product) => product.id >= 194 && product.id <= 270);
 
-  const newestProducts = listProduct.filter((product) => product.id >= 7 && product.id <= 13);
+  const newestProducts = listProduct.filter((product) => product.id >= 300 && product.id <= 305);
 
   return (
     <div className="home p-4 ">
@@ -40,7 +44,7 @@ export default function Home() {
                   />
                   <div className="absolute bottom-0 left-0 w-full flex items-center justify-center flex-col bg-black bg-opacity-50 ">
                     <h2 className="text-lg font-semibold text-white p-2 rounded-t-md">
-                      {product.name}
+                      {product.category.name}
                     </h2>
                     <button className="text-white px-4 py-2  bg-red-500 mb-3">
                       Xem tất cả
@@ -69,7 +73,7 @@ export default function Home() {
                   />
                   <div className="absolute bottom-0 left-0 w-full flex items-center justify-center flex-col bg-black bg-opacity-50">
                     <h2 className="text-lg font-semibold text-white p-2 rounded-t-md">
-                      {product.name}
+                      {product.category.name}
                     </h2>
                     <button className="text-white px-4 py-2  bg-red-500 mb-3">
                       Xem tất cả
