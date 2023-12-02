@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "../pages/contents/home/home";
+import Home from "../pages/contents/home/Home";
 import Login from "../pages/contents/login/login";
 import Register from "../pages/contents/register/register";
 import Product from "../pages/contents/product/Product";
@@ -12,7 +12,7 @@ const routes = [
   { path: "/home", element: <Home /> },
   { path: "/login", element: <Login /> },
   { path: "/register", element: <Register /> },
-  { path: "/product", element: <Product /> },
+  { path: "/product/:id", element: <Product /> },
   { path: "/admin", element: <ProductAdmin /> },
   { path: "/admin/product", element: <ProductAdmin /> },
   { path: "/admin/order", element: <OrderAdmin /> },
