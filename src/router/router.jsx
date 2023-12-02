@@ -7,7 +7,7 @@ import ProductAdmin from "../pages/contents/admin/ProductAdmin";
 import OrderAdmin from "../pages/contents/admin/OrderAdmin";
 import UserAdmin from "../pages/contents/admin/UserAdmin";
 import CartPage from "../pages/contents/payment/pay";
-import ImageDetail from "../pages/contents/productdetail/productdetail";
+import ImageDetail from "../pages/contents/productdetail/productDetail";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -20,7 +20,7 @@ const routes = [
   { path: "/admin/order", element: <OrderAdmin /> },
   { path: "/admin/user", element: <UserAdmin /> },
   { path: "/pay", element: <CartPage /> },
-  { path: "/productdetail", element: <ImageDetail /> },
+  { path: "/productDetail/:id", element: <ImageDetail /> },
   { path: "/*", element: <Home /> },
   
   

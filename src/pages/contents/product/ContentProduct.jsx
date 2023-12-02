@@ -12,14 +12,10 @@ export default function ContentProduct() {
         <Category Title={"Category"} />
       </div>
       <div className="grid grid-cols-2 gap-5 sm:col-span-2 lg:col-span-3 lg:grid-cols-3 xl:grid-cols-4 xl:col-span-4">
-        <Link to="/productdetail">
-          <CardProduct />
-        </Link>
         <CardProduct />
         <CardProduct />
         <CardProduct />
-     
-   
+        <CardProduct />
       </div>
     </div>
   );
